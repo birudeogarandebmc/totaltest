@@ -1,19 +1,18 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- main
+  branches:
+    include:
+      - main  # or your actual branch name
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'windows-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - task: BMCTTAutoRun@1
+    inputs:
+      HCIConnection: 'cw01.bmc.com:16196'
+      UserID: $(myUserId)
+      Password: $(myPassword)
+      TestLocationPath: 'C:\Users\bgarande\git\TEST\Tests\Scenarios'
+      CLIInstallationPath: 'C:\WorkbenchCLI'
+      Configuration: 'Repo'
+      Repository: 'http://vw-dtw-xat-01.adprod.bmc.com:48231'
