@@ -1,0 +1,54 @@
+13:26:31.477 INFO      Total Test       ***************************************
+13:26:31.478 INFO      Total Test       ** Execution from Topaz with options **
+13:26:31.479 INFO      Total Test       ***************************************
+13:26:31.479 INFO      Total Test       Using repository: true
+13:26:31.479 INFO      Total Test       Repository URL: http://vw-dtw-xat-01.adprod.bmc.com:48231/totaltestapi/
+13:26:31.480 INFO      Total Test       ***************************************
+13:26:31.482 INFO      Engine           Test Scenario execution started
+13:26:31.484 INFO      Engine           Using context settings:
+  Engine Version                : 23.7.3.v20250531-1544_166
+  Environment id                : CW01-16196 Batch
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cw01.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1148
+  Host user Id                  : PINBXG1
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+13:26:31.484 INFO      Engine           Setting variables from context and context data extensions
+13:26:31.484 INFO      Engine             id: environmentId      value: CW01-16196 Batch
+13:26:31.485 INFO      Engine             id: environmentType    value: BATCH
+13:26:31.485 INFO      Engine             id: userId             value: PINBXG1
+13:26:31.485 INFO      Engine             id: accountingInfo     value: 
+13:26:31.485 INFO      Engine             id: datasetHQL         value: 
+13:26:31.486 INFO      Engine             id: envname            value: Test
+13:26:31.486 INFO      Engine             id: test               value: 
+13:26:31.486 INFO      Engine             id: level              value: PDSE
+13:26:31.491 INFO      Component        Interpreting Component: CCM6000 program:CCM6000
+13:26:31.495 INFO      Component        Using setup JCL for execution
+13:26:31.497 INFO      Component          JCL for setup:
+//RPTFILE DD SYSOUT=*
+//EMPFILE DD DISP=SHR,DSN=ENTQA.TTT.MODIFIED.EMPFILE
+13:26:31.531 INFO      CW01-16196 Batch Db2 Sending Module execution request to Host for module:CCM6000 rollback:false
+13:26:32.642 INFO      HCIClient        Creating job directory /u/xatester/pinbxg1/7bc1c30dc5b7431a8da56d68bf3c29b1
+13:26:35.133 INFO      HCIClient        Job has been started at host with JobId:J0384539
+13:26:41.811 INFO      CW01-16196 Batch Db2 Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job PINBXG1E(J0384539) ended with return code: 0000
+  Job name       : PINBXG1E
+  Job id         : J0384539
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:26:42.392 INFO      CW01-16196 Batch Db2 Component completed with program exit: +0
+13:26:42.980 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+13:26:44.289 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+13:26:44.290 INFO      Component        Finished interpreting Component: CCM6000 program:CCM6000
+13:26:44.292 INFO      Engine           Test Scenario execution ended

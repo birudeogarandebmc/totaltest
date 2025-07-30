@@ -1,0 +1,45 @@
+17:12:10.250 INFO      Total Test       ***************************************
+17:12:10.251 INFO      Total Test       ** Execution from Topaz with options **
+17:12:10.251 INFO      Total Test       ***************************************
+17:12:10.251 INFO      Total Test       Using repository: true
+17:12:10.251 INFO      Total Test       Repository URL: http://vw-dtw-xat-01.adprod.bmc.com:48231/totaltestapi/
+17:12:10.251 INFO      Total Test       ***************************************
+17:12:10.255 INFO      Engine           Test Scenario execution started
+17:12:10.256 INFO      Engine           Using context settings:
+  Engine Version                : 23.7.4.v20250721-1541_222
+  Environment id                : CW01-16196 Batch
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cw01.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1148
+  Host user Id                  : PINBXG1
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+17:12:10.256 INFO      Engine           Setting variables from context and context data extensions
+17:12:10.256 INFO      Engine             id: environmentId      value: CW01-16196 Batch
+17:12:10.260 INFO      Engine             id: environmentType    value: BATCH
+17:12:10.260 INFO      Engine             id: userId             value: PINBXG1
+17:12:10.260 INFO      Engine             id: accountingInfo     value: 
+17:12:10.260 INFO      Engine             id: datasetHQL         value: 
+17:12:10.260 INFO      Engine             id: envname            value: Test
+17:12:10.260 INFO      Engine             id: level              value: PDSE
+17:12:10.262 INFO      Unittest         Interpreting Unittest of module: PL4S001 testscenario path: PL4S001_Scenario.testscenario
+17:12:10.695 INFO      Unittest         Using JCL skeleton to submit JCL
+17:12:19.093 INFO      CW01-16196 Batch Db2 Sending Job execution request to Host 
+17:12:24.980 INFO      CW01-16196 Batch Db2 Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job PINBXG1A(J0611800) ended with return code: 0000
+  Job name       : PINBXG1A
+  Job id         : J0611800
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+17:12:29.636 INFO      Unittest         Execution completed
+17:12:29.636 INFO      Engine           Test Scenario execution ended

@@ -1,0 +1,4 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Tests/Stubs/PL4S001_FILESUB_FILE_01.stub" stubtype="QSAM" target="FILESUB" token="60000">
+  <stub:description>Created: Jun 18, 2025, 10:37:37 AM</stub:description>
+</stub:stub>

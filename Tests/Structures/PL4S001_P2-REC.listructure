@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.1.1.v20250617-1832_199?>
+<!--BMC AMI DevX Total Test 25.1.1.v20250617-1832_199 Jun 18, 2025, 10:37:37 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/PL4S001_P2-REC.listructure">
+  <listructure:struct id="P2_REC" name="P2_REC">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">122</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">122</properties:property>
+    </properties:properties>
+    <listructure:number id="P2_REC.P2_LENGTH" length="4" name="P2_LENGTH">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9999</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:struct id="P2_REC.P2_DATA" name="P2_DATA">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">120</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">120</properties:property>
+      </properties:properties>
+      <listructure:string id="P2_REC.P2_DATA.P2_DATA_BYTE" length="120" name="P2_DATA_BYTE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(120)</properties:property>
+          <properties:property name="displayLength" type="number">120</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(120)</properties:property>
+          <properties:property name="storageLength" type="number">120</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

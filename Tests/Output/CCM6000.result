@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>80366e1c-a1a4-4d57-b202-61a58634e6b7</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <Component label="CCM6000" moduleName="CCM6000" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <PARMINFO>
+              <PARM_LTH expected="5">5</PARM_LTH>
+              <PARM_DATA expected="00005">00005</PARM_DATA>
+              <GRAND_TOTAL expected="40233">40233</GRAND_TOTAL>
+              <TOTAL_RECORD expected="F0F2F1" hexed="true">F0F2F1</TOTAL_RECORD>
+            </PARMINFO>
+          </Data>
+          <Setup>
+            <Content><![CDATA[//RPTFILE DD SYSOUT=*
+//EMPFILE DD DISP=SHR,DSN=ENTQA.TTT.MODIFIED.EMPFILE]]></Content>
+          </Setup>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="CCM6000" type="COBOL">
+          <INOUT>
+            <PARMINFO>
+              <PARM_LTH type="NumericBinary" length="4" bytes="2" native="S9(4)" signed="true" decimals="0" signsep="false" signpos="" />
+              <PARM_DATA type="Character" length="5" bytes="5" native="X(5)" />
+              <GRAND_TOTAL type="NumericBinary" length="7" bytes="4" native="S9(7)" signed="true" decimals="0" signsep="false" signpos="" />
+              <TOTAL_RECORD type="NumericDisplay" length="3" bytes="3" native="999" signed="false" decimals="0" signsep="false" signpos="" />
+            </PARMINFO>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="CW01-16196 Batch" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="PINBXG1">
+      <platformruntime db2id="DC01" database="DC01CW01" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cw01.bmc.com:746/${database}" environmenttype="BATCH" db2plan="KSSANDBX" callinterface="NONE" envname="CW01-16196 Batch Db2" />
+      <ExtensionData>
+        <Parameter key="envname">
+          <Value>Test</Value>
+        </Parameter>
+        <Parameter key="level">
+          <Value>PDSE</Value>
+        </Parameter>
+      </ExtensionData>
+      <ExtensionData componentName="ccm6000" componentId="6821a871c4d15f02e473d7e7">
+        <Parameter key="db2id">
+          <Value>DC01</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>CM.KTTADEV.DEV1.LISTCSS.S0000005</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>KSSANDBX</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>CM.KTTADEV.DEV1.LOAD</Value>
+          <Value>CM.KTTADEV.REGR.LOAD</Value>
+          <Value>CM.KTTADEV.INTG.LOAD</Value>
+          <Value>CM.KTTADEV.PTFS.LOAD</Value>
+          <Value>CM.KTTADEV.PROD.LOAD</Value>
+          <Value>CEE.SCEERUN</Value>
+          <Value>CM.KTTADEV.DEV1.LOAD</Value>
+          <Value>CM.KTTADEV.REGR.LOAD</Value>
+          <Value>CM.KTTADEV.INTG.LOAD</Value>
+          <Value>CM.KTTADEV.PTFS.LOAD</Value>
+          <Value>CM.KTTADEV.PROD.LOAD</Value>
+          <Value>CEE.SCEERUN</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>CM.KTTADEV.DEV1.LOAD</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="ccm6000" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CCM6000" caseInsensitiveCompare="false" path="CCM6000.scenario">
+        <Test>
+          <Component label="CCM6000" moduleName="CCM6000" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <PARMINFO>
+                <PARM_LTH expected="5">5</PARM_LTH>
+                <PARM_DATA expected="00005">00005</PARM_DATA>
+                <GRAND_TOTAL expected="40233">0</GRAND_TOTAL>
+                <TOTAL_RECORD expected="F0F2F1" hexed="true">000000</TOTAL_RECORD>
+              </PARMINFO>
+            </Data>
+            <Setup>
+              <Content><![CDATA[//RPTFILE DD SYSOUT=*
+//EMPFILE DD DISP=SHR,DSN=ENTQA.TTT.MODIFIED.EMPFILE]]></Content>
+            </Setup>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="CCM6000" type="COBOL">
+            <INOUT>
+              <PARMINFO>
+                <PARM_LTH type="NumericBinary" length="4" bytes="2" native="S9(4)" signed="true" decimals="0" signsep="false" signpos="" />
+                <PARM_DATA type="Character" length="5" bytes="5" native="X(5)" />
+                <GRAND_TOTAL type="NumericBinary" length="7" bytes="4" native="S9(7)" signed="true" decimals="0" signsep="false" signpos="" />
+                <TOTAL_RECORD type="NumericDisplay" length="3" bytes="3" native="999" signed="false" decimals="0" signsep="false" signpos="" />
+              </PARMINFO>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20250601-13-26-31</Started>
+  <Ended>20250601-13-26-44</Ended>
+</XaUnitResult>

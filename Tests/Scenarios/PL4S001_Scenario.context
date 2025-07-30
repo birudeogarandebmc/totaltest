@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="CW01-16196 Batch" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData>
+    <Parameter key="envname">
+      <Value>Test</Value>
+    </Parameter>
+    <Parameter key="level">
+      <Value>PDSE</Value>
+    </Parameter>
+    <Parameter key="unittest.loadlibraries">
+      <Value>ENTQA.TTT.PDSE.LOAD</Value>
+      <Value>CEE.SCEERUN</Value>
+      <Value>ENTQA.TTT.PDSE.LOAD</Value>
+      <Value>CEE.SCEERUN</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="PL4S001" caseInsensitiveCompare="false" path="PL4S001_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="PL4S001_Scenario.testscenario" moduleName="PL4S001" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

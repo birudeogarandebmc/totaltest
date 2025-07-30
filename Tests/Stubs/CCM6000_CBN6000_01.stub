@@ -1,0 +1,907 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/CCM6000_CBN6000_01.stub" stubtype="Program" target="CBN6000" token="20000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jun 1, 2025, 11:26:06 AM</stub:description>
+  <stub:stubdata id="0" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F5</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F5</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F8</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F8</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F3</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F3</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F2</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F2</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F2</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F2</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F7</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F7</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F9</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="CBN6000">
+    <stub:interface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CCM6000_CBN6000.interface#Tests/Interfaces/CCM6000_CBN6000.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F9</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#Tests/Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="address" type="string">3EB1F6CC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#Tests/Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F2</properties:property>
+          <properties:property name="address" type="string">3EB1F6F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#Tests/Structures/CCM6000_CBN6000_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5F0F6F0F1</properties:property>
+          <properties:property name="address" type="string">3EB1F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#Tests/Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
+          <properties:property name="address" type="string">3EB20A05</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#Tests/Structures/CCM6000_CBN6000_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CCM6000_CBN6000_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

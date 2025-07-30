@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/PL4S001_Scenario.testscenario" persistent="true">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case1" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case2" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F2E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F2406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F2E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F2406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case3" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F3E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F3406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F3E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F3406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case4" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F4E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F4406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F4E25C40E2C8D6D9E340D9C5C3D6D9C4407BF0F4406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case5" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F5E25C60606060606060606060606060407BF0F5406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F5E25C60606060606060606060606060407BF0F5406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case6" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F6E25C60606060606060606060606060407BF0F6406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F6E25C60606060606060606060606060407BF0F6406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case7" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F7E25C60606060606060606060606060407BF0F7406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F7E25C60606060606060606060606060407BF0F7406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case8" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F8E25C60606060606060606060606060407BF0F8406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F8E25C60606060606060606060606060407BF0F8406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case9" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F9E25C60606060606060606060606060407BF0F9406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F9E25C60606060606060606060606060407BF0F9406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case10" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F0F1E25C60606060606060606060606060407BF0F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case11" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F0E25C60606060606060606060606060407BF1F0406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F0E25C60606060606060606060606060407BF1F0406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case12" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F1E25C60606060606060606060606060407BF1F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F1E25C60606060606060606060606060407BF1F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case13" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F2E25C60606060606060606060606060407BF1F2406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F2E25C60606060606060606060606060407BF1F2406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case14" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F3E25C60606060606060606060606060407BF1F3406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F3E25C60606060606060606060606060407BF1F3406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case15" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F4E25C60606060606060606060606060407BF1F4406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F4E25C60606060606060606060606060407BF1F4406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case16" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F5E25C60606060606060606060606060407BF1F5406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F5E25C60606060606060606060606060407BF1F5406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case17" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F6E25C60606060606060606060606060407BF1F6406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F6E25C60606060606060606060606060407BF1F6406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case18" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F7E25C60606060606060606060606060407BF1F7406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F7E25C60606060606060606060606060407BF1F7406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case19" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F1F8E25C60606060606060606060606060407BF1F8406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F1F8E25C60606060606060606060606060407BF1F8406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case20" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F2F0D45C60606060606060606060606060407BF2F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F2F0D45C60606060606060606060606060407BF2F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case21" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F2F1D35C60606060606060606060606060407BF2F140606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F2F1D35C60606060606060606060606060407BF2F140606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case22" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F2F9E25C60606060606060606060606060407BF2F9406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F2F9E25C60606060606060606060606060407BF2F9406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case23" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F3F1D45C60606060606060606060606060407BF3F140606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F3F1D45C60606060606060606060606060407BF3F140606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case24" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F4F0E25C60606060606060606060606060407BF4F0406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F4F0E25C60606060606060606060606060407BF4F0406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case25" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F4F4D35C60606060606060606060606060407BF4F440606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F4F4D35C60606060606060606060606060407BF4F440606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case26" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F4F5D35C60606060606060606060606060407BF4F540606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F4F5D35C60606060606060606060606060407BF4F540606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case27" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F4F6D35C60606060606060606060606060407BF4F640606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F4F6D35C60606060606060606060606060407BF4F640606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case28" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F4F7D35C60606060606060606060606060407BF4F740606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F4F7D35C60606060606060606060606060407BF4F740606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case29" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F4F8D35C60606060606060606060606060407BF4F840606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F4F8D35C60606060606060606060606060407BF4F840606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case30" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F5F2D45C60606060606060606060606060407BF5F240606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F5F2D45C60606060606060606060606060407BF5F240606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case31" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F5F5D35C60606060606060606060606060407BF5F540606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F5F5D35C60606060606060606060606060407BF5F540606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case32" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0050F6F1E25C60606060606060606060606060407BF6F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">0050F6F1E25C60606060606060606060606060407BF6F1406060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C40404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="PL4S001" encoding="1047" entrypoint="PL4S001" id="Tests/Scenarios/PL4S001_Scenario.testscenario%23PL4S001Case33" target="PL4S001">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1506056903000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/PL4S001.interface#Tests/Interfaces/PL4S001.interface</testcase:interface>
+      <testcase:input listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC" id="arg0.P1_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F6F2D45C60606060606060606060606060407BF6F240606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F6F2D45C60606060606060606060606060407BF6F240606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC" id="arg1.P2_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="expectedValue" type="string">0078F1F0D45C60606060606060606060606060407BF1F040606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060606060405C</properties:property>
+            <properties:property name="address" type="string">3E7FE170</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/PL4S001_FILESUB_FILE_01.stub#Tests/Stubs/PL4S001_FILESUB_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/PL4S001_RETURN-CODE.listructure#Tests/Structures/PL4S001_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/PL4S001_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>PL4S001</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

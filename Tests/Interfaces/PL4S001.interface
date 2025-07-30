@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.1.1.v20250617-1832_199?>
+<!--BMC AMI DevX Total Test 25.1.1.v20250617-1832_199 Jun 18, 2025, 10:37:37 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/PL4S001.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/PL4S001_P1-REC.listructure#Tests/Structures/PL4S001_P1-REC.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/PL4S001_P1-REC.listructure#P1_REC.P1_LENGTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/PL4S001_P1-REC.listructure#P1_REC.P1_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/PL4S001_P1-REC.listructure#P1_REC.P1_DRED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/PL4S001_P1-REC.listructure#P1_REC.P1_DRED.P1_DATA_TRAN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/PL4S001_P1-REC.listructure#P1_REC.P1_DRED.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/PL4S001_P2-REC.listructure#Tests/Structures/PL4S001_P2-REC.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/PL4S001_P2-REC.listructure#P2_REC.P2_LENGTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/PL4S001_P2-REC.listructure#P2_REC.P2_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/PL4S001_P2-REC.listructure#P2_REC.P2_DATA.P2_DATA_BYTE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

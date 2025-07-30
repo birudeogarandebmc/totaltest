@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.7.3.v20250531-1544_166?>
+<!--BMC AMI DevX Total Test 23.7.3.v20250531-1544_166 Jun 1, 2025, 11:28:21 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/CCM6000_EMPFILE_EMPLOYEE_WORK_AREA_NEW.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#Tests/Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_TYPE_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_FIELD4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_REGION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_HIRE_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_SALARY_RATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_AMOUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_FIELD12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure#EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_HOURS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

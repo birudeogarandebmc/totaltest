@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.7.3.v20250531-1544_166?>
+<!--BMC AMI DevX Total Test 23.7.3.v20250531-1544_166 Jun 1, 2025, 11:28:21 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/CCM6000_EMPFILE_EMPLOYEE-WORK-AREA-NEW.listructure">
+  <listructure:struct id="EMPLOYEE_WORK_AREA_NEW" name="EMPLOYEE_WORK_AREA_NEW">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">93</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">93</properties:property>
+    </properties:properties>
+    <listructure:struct id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW" name="EMPLOYEE_GROUP_NEW">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">93</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">93</properties:property>
+      </properties:properties>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NUM" length="5" name="WAN_EMP_NUM">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_TYPE_STATE" length="3" name="WAN_EMP_TYPE_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(3)</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(3)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_ADDRESS" length="32" name="WAN_EMP_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32)</properties:property>
+          <properties:property name="displayLength" type="number">32</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32)</properties:property>
+          <properties:property name="storageLength" type="number">32</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_FIELD4" length="5" name="WAN_EMP_FIELD4">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(5)</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_REGION" length="3" name="WAN_EMP_REGION">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(3)</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(3)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_HIRE_DATE" length="10" name="WAN_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_1" length="4" name="WAN_EMP_NAME_1">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_2" length="4" name="WAN_EMP_NAME_2">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_NAME_3" length="9" name="WAN_EMP_NAME_3">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(9)</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(9)</properties:property>
+          <properties:property name="storageLength" type="number">9</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_SALARY_RATE" length="8" name="WAN_EMP_SALARY_RATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(8)</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">8</properties:property>
+          <properties:property name="integerDigits" type="number">8</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_AMOUNT" length="8" name="WAN_EMP_AMOUNT">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(8)</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">8</properties:property>
+          <properties:property name="integerDigits" type="number">8</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_FIELD12" length="8" name="WAN_EMP_FIELD12">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(8)</properties:property>
+          <properties:property name="displayLength" type="number">8</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(8)</properties:property>
+          <properties:property name="storageLength" type="number">8</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="EMPLOYEE_WORK_AREA_NEW.EMPLOYEE_GROUP_NEW.WAN_EMP_HOURS" length="2" name="WAN_EMP_HOURS">
+        <properties:properties>
+          <properties:property name="picture" type="string">99</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="integerDigits" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">99</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.1.1.v20250617-1832_199?>
+<!--BMC AMI DevX Total Test 25.1.1.v20250617-1832_199 Jun 18, 2025, 10:37:37 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/PL4S001_P1-REC.listructure">
+  <listructure:struct id="P1_REC" name="P1_REC">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">122</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">122</properties:property>
+    </properties:properties>
+    <listructure:number id="P1_REC.P1_LENGTH" length="4" name="P1_LENGTH">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9999</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="P1_REC.P1_DATA" length="120" name="P1_DATA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(120)</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">120</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(120)</properties:property>
+        <properties:property name="storageLength" type="number">120</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="P1_REC.P1_DRED" name="P1_DRED">
+      <properties:properties>
+        <properties:property name="redefines" type="string">P1_DATA</properties:property>
+        <properties:property name="displayLength" type="number">120</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">120</properties:property>
+      </properties:properties>
+      <listructure:string id="P1_REC.P1_DRED.P1_DATA_TRAN" length="1" name="P1_DATA_TRAN">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="P1_REC.P1_DRED.FILLER0" length="119" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(119)</properties:property>
+          <properties:property name="displayLength" type="number">119</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(119)</properties:property>
+          <properties:property name="storageLength" type="number">119</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>
